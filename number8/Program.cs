@@ -4,18 +4,10 @@
 Console.Clear();
 Console.WriteLine("Введите натуральное число N: ");
 int N = int.Parse(Console.ReadLine()!);
-int count = 1;
-while(count <= N)
+int count = 2;
+while (count <= N)
 {
-    int count1 = count % 2;
-    if(count1 == 0)
-    {
-        Console.WriteLine($"{count}");
-        count++;   
-    }
-    else
-    {
-        count++;
-    }
+    Console.WriteLine($"{count}");
+    count += 2;
 }
 

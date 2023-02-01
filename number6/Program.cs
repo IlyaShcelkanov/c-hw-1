@@ -5,8 +5,7 @@
 //7 -> нет
 Console.WriteLine("Введите число: ");
 int N = int.Parse(Console.ReadLine()!);
-int result = N % 2;
-if (result == 0)
+if (N % 2 == 0)
 {
     Console.Write($"-> да");
 }
